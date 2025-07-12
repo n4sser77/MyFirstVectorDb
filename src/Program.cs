@@ -1,18 +1,8 @@
-﻿using System;
-using System.Net;
-using System.Numerics;
-using System.Reflection.Metadata;
-using System.Runtime.InteropServices;
-using Microsoft.Extensions.AI;
-using Microsoft.SemanticKernel;
-using Microsoft.SemanticKernel.Embeddings;
-using Microsoft.SemanticKernel.Text;
-using Microsoft.VisualBasic;
+﻿using Microsoft.SemanticKernel.Text;
 using MyFirstVectorDb;
 using OllamaSharp;
 using OllamaSharp.Models;
-using OllamaSharp.Models.Chat;
-using OpenAI.Embeddings;
+
 
 
 VectorStore store = new VectorStore();
