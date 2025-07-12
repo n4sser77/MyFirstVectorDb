@@ -1,24 +1,3 @@
-Vectorstore
-Tha main client db class to be used
-
-ChunkRecord
-what is stored in the database. consists of a string document Id, float[] Embedding, int ChunkIndex to keep track what document is this chunk from and where it is in the chunks list in the document obj
-
-VectorRecord
-earlier version of ChunkRecord without the chunking
-stored full text strings. Later adopted to ChunkRecord when real embedding and chunking was introduced.
-
-VectorMath
-this is where the CosineSimilarity method resides and is the main algoritm used when searching in the VectorStore
-
-Document
-A full document stored in the database. Consists of string Id, string title, string text.
-
-text is now replaced with  ```c#
-   List<string>
-
-``` which is the full document content in chunks, the vector store keeps track of each chunks document Id and chunk index to be able to retrive the desired chunk
-Absolutely. Here’s a clear, detailed write-up you can use as documentation for your project — part technical readme, part project reflection, and part learning log.
 
 ---
 
