@@ -1,6 +1,3 @@
-
----
-
 # 🧠 MyFirstVectorDb
 
 > A local vector store built from scratch in C#, designed to explore how vector databases, semantic search, chunking, and LLM-based retrieval-augmented generation (RAG) work using real embeddings and local models.
