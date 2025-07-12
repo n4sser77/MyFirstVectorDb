@@ -32,7 +32,7 @@ The main "database client" interface.
 
 Represents a full document in the store.
 
-* Has an `Id`, a `Title`, and a `List<string>` of **chunks** (split paragraphs or sentences).
+* Has an `Id`, a `Title`, and a ```csharp List<string>``` of **chunks** (split paragraphs or sentences).
 * Chunking is done at load time using the [`TextChunker`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel.text.textchunker) from Semantic Kernel.
 * Does not store the full raw text — only chunks.
 
